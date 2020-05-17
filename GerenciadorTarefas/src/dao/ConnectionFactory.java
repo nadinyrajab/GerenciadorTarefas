@@ -19,7 +19,7 @@ public class ConnectionFactory {
 	public static Connection conectar() {
 		try {
 			return DriverManager
-					.getConnection("jdbc:mysql://localhost/web_tarefas?useTimezone=true&serverTimezone=UTC&useSSL=false", "vagnerbd", "dx8728");
+					.getConnection("jdbc:mysql://localhost/web_tarefas?useTimezone=true&serverTimezone=UTC&useSSL=false", "root", "123456");
 		} catch (SQLException ex) {
 			System.err.println("Não foi possivel se conectar ao servidor!");
 			ex.printStackTrace();

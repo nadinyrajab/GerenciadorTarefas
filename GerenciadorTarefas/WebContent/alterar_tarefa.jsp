@@ -77,7 +77,7 @@
 					href="cadastrar_tarefa.jsp">Adicionar tarefa</a></li>
 			</ul>
 			<div>
-				<h5>Olá, <%=nome%></h5>
+				<h5>Alterando Tarefa, <%=nome%></h5>
 				<a href="logout.do" class="txt1">Sair</a>	
 			</div>
 		</div>

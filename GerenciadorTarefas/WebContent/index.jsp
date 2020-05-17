@@ -35,19 +35,19 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-b-160 p-t-50">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form"  method="post" action="Login.do">
 					<span class="login100-form-title p-b-43">
 						TASKS MANAGER
 					</span>
 					
 					<div class="wrap-input100 rs1 validate-input" data-validate = "email">
-						<input class="input100" type="email" name="email">
+						<input class="input100" type="email" name="email" placeholder="E-mail">
 						<span class="label-input100">E-mail</span>
 					</div>
 					
 					
 					<div class="wrap-input100 rs2 validate-input" data-validate="Senha">
-						<input class="input100" type="password" name="senha">
+						<input class="input100" type="password" name="senha" placeholder="Senha">
 						<span class="label-input100">Senha</span>
 					</div>
 
